@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
-  
+  <h1>TicTacToe</h1>
   <div class="container">
+    <div class="infoPannel">
+      <h4>Score</h4>
+      <ul class="infoList">
+        <li class="xScore infoItem"></li>
+        <li class="oScore infoItem"></li>
+        <li class="drawScore infoItem"></li>
+      </ul>
+      <button class="resetButton">Reset score</button>
+    </div>
     <div class="gameGround"></div>
     <div class="winner">
       <div class="winnerText"></div>
@@ -18,4 +29,5 @@
 
   <script src="main.js"></script>
 </body>
+
 </html>
