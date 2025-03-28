@@ -1,6 +1,6 @@
 .gameGround {
-  max-width: 420px;
-  max-height: 420px;
+  max-width: 570px;
+  max-height: 570px;
   width: min(90vw, 90vh);
   height: min(90vw, 90vh);
   aspect-ratio: 1;
@@ -30,8 +30,8 @@ body {
 }
 
 .cell {
-  max-width: 160px;
-  max-height: 160px;
+  max-width: 190px;
+  max-height: 190px;
   flex: 1 1 33.33%;
   aspect-ratio: 1;
   background-color: coral;
